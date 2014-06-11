@@ -1,0 +1,22 @@
+{
+    "name": "thomasmrln/coperfield",
+    "description": "PHP class to apply a lighter abstraction for databases languages. ",
+    "keywords": ["php", "database", "db", "abstraction", "coperfield"],
+    "homepage": "https://github.com/ThomasMrln/Coperfield",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Thomas Merlen",
+            "email": "thomas@merlen.fr",
+            "homepage": "http://www.thomasmerlen.fr/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "target-dir": "/",
+    "autoload": {
+        "classmap": ["src/"]
+    }
+}
