@@ -2,7 +2,7 @@
 
 class MagicHat extends ArrayObject {
 
-		public to_json() {
+		public function to_json() {
 				return true;
 		}
 }
